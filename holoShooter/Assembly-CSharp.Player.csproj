@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\Player.cs" />
+    <Compile Include="Assets\scripts\weapons\RocketLauncher.cs" />
+    <Compile Include="Assets\scripts\weapons\Rocket.cs" />
+    <Compile Include="Assets\scripts\explosion.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

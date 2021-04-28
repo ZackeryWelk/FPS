@@ -66,19 +66,19 @@ public class Player : MonoBehaviour
         //movement
         if (Input.GetKey(KeyCode.W))
         {
-            rigidbody.AddForce(player.transform.forward);
+            rigidbody.AddForce(player.transform.forward * playerMoveForce);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            rigidbody.AddForce(-player.transform.forward);
+            rigidbody.AddForce(-player.transform.forward * playerMoveForce);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            rigidbody.AddForce(-player.transform.right);
+            rigidbody.AddForce(-player.transform.right * playerMoveForce);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            rigidbody.AddForce(player.transform.right);
+            rigidbody.AddForce(player.transform.right * playerMoveForce);
         }
         //jump
         if (Input.GetKeyDown(KeyCode.Space) && canJump)

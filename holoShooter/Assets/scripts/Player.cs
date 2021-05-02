@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
 
     Quaternion originalRotation;
 
-    public int playerMoveForce;
+    public float playerMoveForce;
     public int playerJumpForce;
     private bool canJump;
 

@@ -128,7 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rocket: {fileID: 6387487901730044248}
   explosion: {fileID: 8485492880119046312, guid: 4159b771ce9680044aae48e4f86b7537, type: 3}
-  projectileSpeed: 600
+  projectileSpeed: 1300
   damage: 5
 --- !u!135 &2073131249595968940
 SphereCollider:
